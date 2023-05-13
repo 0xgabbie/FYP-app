@@ -40,7 +40,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/Learning" element={<RoleOfMoney />} />
+        <Route path="/" element={<RoleOfMoney />} />
         <Route path="/topic1" element={<RoleOfMoney />} />
         <Route path="/topic1Quiz" element={<RoleOfMoneyQuiz />} />
         <Route path="/topic2" element={<MoneyCharateristics />} />
